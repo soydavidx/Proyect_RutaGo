@@ -42,12 +42,6 @@ fun AdminDashboardScreen(
             .fillMaxSize()
             .padding(16.dp)
     ) {
-        // Barra superior con hora
-        Text(
-            text = "9:41",
-            style = MaterialTheme.typography.bodySmall,
-            modifier = Modifier.align(Alignment.End)
-        )
 
         Spacer(modifier = Modifier.height(16.dp))
 
